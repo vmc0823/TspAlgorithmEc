@@ -14,10 +14,7 @@ We upgraded the route planner to a TSP-style algorithm. Each target tile is trea
 
 Why it’s beneficial:
 
-- Compared to serpentine, the TSP route:
-
+Compared to serpentine, the TSP route:
 - reduces total distance/time by avoiding unnecessary back-and-forth scanning,
-
 - adapts to target layout (clusters get visited efficiently),
-
 - provides a clear “before vs after” comparison: a baseline scan pattern versus an optimized route-planning algorithm.

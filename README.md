@@ -1,3 +1,5 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vmc0823/TspAlgorithmEc)
+
 # Travel Salesman Algorithm Implementation
 
 ## Drone Route-Planning Demo:
@@ -17,4 +19,6 @@ Why it’s beneficial:
 Compared to serpentine, the TSP route:
 - reduces total distance/time by avoiding unnecessary back-and-forth scanning,
 - adapts to target layout (clusters get visited efficiently),
+
 - provides a clear “before vs after” comparison: a baseline scan pattern versus an optimized route-planning algorithm.
+

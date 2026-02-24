@@ -1,7 +1,9 @@
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/vmc0823/TspAlgorithmEc)
+
 # Travel Salesman Algorithm Implementation
 
 ## Drone Route-Planning Demo:
-The app is a drone route-planning demo that shows how to visit multiple target locations efficiently on a grid. It takes a set of “target tiles” (dummy data) and treats them as cities in a Traveling Salesman Problem (TSP). Using a TSP heuristic (Nearest Neighbor, optionally improved with 2-opt), it generates an ordered route that minimizes travel distance/time compared to the original serpentine scan approach.
+The app is a drone route-planning demo that shows how to visit multiple target locations efficiently on a grid. Using either Main (Scanner input) or dummy data, it takes a set of “target tiles” and treats them as cities in a Traveling Salesman Problem (TSP). Using a TSP heuristic (Nearest Neighbor, optionally improved with 2-opt), it generates an ordered route that minimizes travel distance/time compared to the original serpentine scan approach.
 
 Upgrade: Serpentine Scan → TSP Route Planning
 Original approach (Serpentine)
@@ -17,4 +19,6 @@ Why it’s beneficial:
 Compared to serpentine, the TSP route:
 - reduces total distance/time by avoiding unnecessary back-and-forth scanning,
 - adapts to target layout (clusters get visited efficiently),
+
+
 - provides a clear “before vs after” comparison: a baseline scan pattern versus an optimized route-planning algorithm.

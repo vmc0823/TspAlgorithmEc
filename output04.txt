@@ -1,0 +1,7 @@
+Nearest Neighbor tour:
+(-2,-2) -> (-2,3) -> (3,5) -> (4,-1) -> (-2,-2)
+Length: 26
+
+After 2-opt improvement:
+(-2,-2) -> (-2,3) -> (3,5) -> (4,-1) -> (-2,-2)
+Length: 26

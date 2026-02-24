@@ -11,6 +11,4 @@ public class AreaGridTile {
     public int r;         // Red color value
     public int g;         // Green color value
     public String timestamp; // Timestamp of the update
-
-
 }
